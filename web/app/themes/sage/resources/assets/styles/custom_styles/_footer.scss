@@ -1,0 +1,130 @@
+hr {
+  margin: 0px;
+  color: #f2f2f2;
+  size: 3px;
+}
+
+/* Footer */
+.footer-logo a {
+  color: #FF8E3B;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.footer-first {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social span {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-social span a {
+  color: #000;
+  font-size: 20px;
+}
+
+.footer__buttonblock {
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0px;
+
+}
+
+.footer__buttonblock a {
+  color: #333333;
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+.footer-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-list__elem{
+  margin-top:30px;
+}
+.footer-list__elem h3 {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  margin:20px 0px;
+}
+
+
+.footer-list__elem_m {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: max-content;
+}
+
+.footer-list__elem_m span {
+  margin-right: 45px;
+}
+
+.footer-list__elem_m span p {
+  color: #333333;
+}
+
+.footer_apps {
+  display: flex;
+}
+
+.footer-application {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+.footer-application__title{
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer-application__block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.appstore {
+  margin-right: 20px;
+}
+
+.googleplay {
+  margin-right: 20px;
+}
+
+.footer-application__block p {
+  color: #828282;
+}
+.footer-application__text{
+  margin-top:20px;
+}

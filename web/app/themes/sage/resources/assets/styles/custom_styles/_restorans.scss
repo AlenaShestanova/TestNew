@@ -1,0 +1,46 @@
+.food__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.food__title {
+  font-size: 44px;
+  font-weight: bold;
+  margin-top:30px;
+}
+
+.food__container_elem {
+  width: 32%;
+  margin-bottom: 20px;
+}
+
+.food__text a {
+  color: #A9A9A9;
+  font-size: 14px;
+
+}
+
+.food__container_elem img {
+  width: 100%;
+}
+
+.food__container_elem h2 {
+  margin: 3px 0px;
+  font-weight: bold;
+}
+
+
+.food__text {
+  display: flex;
+  color: #A9A9A9;
+  font-size: 14px;
+}
+.food__text p {
+  margin: 0;
+  margin-right: 3px;
+
+}
